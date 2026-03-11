@@ -123,7 +123,7 @@ When **Check Empty References** is enabled, the following property types are che
 #### Validation Results
 - A popup shows up to **20 errors** with the asset name and property name for each issue
 - If there are more than 20 errors, the popup directs you to the **Output Log** for the full list
-- All errors are also logged to the Output Log under `LogTemp Warning` for easy filtering
+- All errors are also logged to the Output Log under `LogSmartDataAssetManager Warning` for easy filtering
 - A green **SUCCESS** popup confirms when no issues are found
 
 #### Strict Mode (C++ Only)
