@@ -26,27 +26,19 @@ Smart Data Asset Manager is an editor plugin that gives you a dedicated, all-in-
 The panel is divided into three sections:
 
 ```
-┌─────────────────────────────────────────────────────┐
-│  TOP BAR                                            │
-│  Save | Browse | Refresh | Toggle View              │
-│  Folder: [All Folders] [Clear]                      │
-│  Filter Class: [All Data Assets ▾]  [+Create New]  │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│  ASSET LIST (40%)                                   │
-│  Scrollable asset picker with search                │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│  DETAILS / PROPERTY EDITOR (60%)                    │
-│  Multi-select bulk editing supported                │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│  BOTTOM                                             │
-│  [✓] Check Empty Refs  [ ] Check Empty Arrays       │
-│  [ ] Strict Mode                                    │
-│  [Clear Selection]  [Validate Rules]                │
-└─────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│  TOP BAR                                                                             │
+│  [💾] [🔍] [🔄] [⊞]  Folder: [All Folders ▾] [Clear]  Filter Class: [All Data ▾]  [+ Create New Asset] │
+├──────────────────────────────────────┬───────────────────────────────────────────────┤
+│                                      │                                               │
+│  ASSET LIST                          │  DETAILS / PROPERTY EDITOR                    │
+│  Scrollable asset picker             │  Edit properties directly.                    │
+│  with multi-select support           │  Multi-select bulk editing supported.         │
+│                                      │                                               │
+├──────────────────────────────────────┴───────────────────────────────────────────────┤
+│  [✓] Check Empty References  [ ] Check Empty Arrays  [ ] Strict Mode (Required Only) │
+│  [Clear Selection]  [Validate Rules]                                                 │
+└──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
